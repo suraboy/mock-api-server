@@ -1,0 +1,8 @@
+- request:
+    method: POST
+    url: /api/users
+  response:
+    status: 200
+    headers:
+      content-type: application/json
+    file: ./json/users.json
