@@ -1,0 +1,22 @@
+{
+  "routes": [
+    {
+      "method": "get",
+      "endpoint": "api/users",
+      "responses": [
+        {
+          "uuid": "7ee04209-ceab-4ecf-9155-1ff13566a22c",
+          "statusCode": 200,
+          "label": "Success",
+          "body": "{\"id\": 1, \"name\": \"John Doe\"}, {\"id\": 2, \"name\": \"Jane Smith\"}",
+          "headers": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
